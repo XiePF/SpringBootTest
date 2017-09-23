@@ -30,7 +30,7 @@
 			<commons.lang3.version>3.5</commons.lang3.version>
 			<guava.version>23.0</guava.version>
 			<docker.host>http://106.14.8.160:2375</docker.host>
-			<docker.repository>registry.cn-hangzhou.aliyuncs.com</docker.repository>
+			<docker.repository>registry.cn-hangzhou.aliyuncs.com/skyf/spring_test</docker.repository>
 		</properties>
 
 	<dependencies>
@@ -64,7 +64,7 @@
 						<phase>package</phase>
 						<goals>
 							<goal>build</goal>
-							<!--<goal>push</goal>-->
+							<goal>push</goal>
 						</goals>
 					</execution>
 				</executions>
