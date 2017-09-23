@@ -5,4 +5,4 @@ ADD demo-0.0.1-SNAPSHOT.jar $APP_ROOT/app.jar
 WORKDIR $APP_ROOT
 ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom"]
 CMD ["-jar", "app.jar"]
-EXPOSE 8080
+EXPOSE 9090
