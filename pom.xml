@@ -64,7 +64,7 @@
 						<phase>package</phase>
 						<goals>
 							<goal>build</goal>
-							<goal>push</goal>
+							<!--<goal>push</goal>-->
 						</goals>
 					</execution>
 				</executions>
@@ -72,9 +72,9 @@
 					<serverId>aliyun-docker-hub</serverId>
 					<registryUrl>${docker.repository}</registryUrl>
 					<dockerHost>${docker.host}</dockerHost>
-					<imageName>${docker.repository}:${project.version}</imageName>
+					<imageName>${docker.repository}:latest</imageName>
 					<imageTags>
-						<imageTag>${project.version}</imageTag>
+						<!--<imageTag>${project.version}</imageTag>-->
 						<imageTag>latest</imageTag>
 					</imageTags>
 					<dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
