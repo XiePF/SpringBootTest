@@ -16,6 +16,6 @@ public class Test {
     public  String hello()
     {
         //
-        return  "hiss";
+        return  "hia !";
     }
 }
