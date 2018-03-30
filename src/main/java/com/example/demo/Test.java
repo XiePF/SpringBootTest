@@ -16,6 +16,6 @@ public class Test {
     public  String hello()
     {
         //    ss
-        return  "hia !";
+        return  "最新的 !";
     }
 }
