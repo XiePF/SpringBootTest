@@ -72,7 +72,6 @@
 					<serverId>aliyun-docker-hub</serverId>
 					<registryUrl>${docker.repository}</registryUrl>
 					<dockerHost>${docker.host}</dockerHost>
-					<pushImage>true</pushImage>
 					<imageName>${docker.repository}:latest</imageName>
 					<imageTags>
 						<!--<imageTag>${project.version}</imageTag>-->
